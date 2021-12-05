@@ -1,11 +1,20 @@
 import java.util.*;
 
 public class TollCalculator {
+    public int getTollFee(Vehicle vehicle, Date date){
+        int totalFee = 0;
+
+        System.out.println(date);
+        System.out.print("Is toll Free Date ==> ");
+        System.out.println(isTollFreeDate(date));
+        return totalFee;
+    }
+
     public int getTollFee(Vehicle vehicle, Date... dates){
         Date intervalStart = dates[0];
         int totalFee = 0;
         for (Date date : dates){
-            System.out.println(date);
+
         }
         return totalFee;
     }
@@ -25,7 +34,11 @@ public class TollCalculator {
         if ((dfd == "Saturday") || (dfd == "Sunday")){
             return true;
         }
-
+        for (int element : timeTollFree){
+            if (gh == element){
+                return true;
+            }
+        }
         return false;
     }
 
