@@ -22,4 +22,4 @@ People should be given financial incentives to drive other times than during rus
 The city client has given us consultants the task of designing a system to calculate the fee for an individual car that passes a road camera at a certain time of the day.
 
 
-This README will be updated under i'ts development.
+This README will be updated during i'ts development.
