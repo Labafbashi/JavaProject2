@@ -15,4 +15,4 @@ This project contains these knowledge.
 
 
 
-This project is under it's development. 
+This project is not compelete and it's under development. 
