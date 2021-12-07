@@ -15,4 +15,11 @@ This project contains these knowledge.
 
 
 
-This project is not compelete and it's under development. 
+Task:
+
+The city has decided to have customs duties on the roads in an attempt to create smaller bottlenecks in traffic.
+People should be given financial incentives to drive other times than during rush hour (8:00 - 9:00) and (16: 00-17: 00).
+The city client has given us consultants the task of designing a system to calculate the fee for an individual car that passes a road camera at a certain time of the day.
+
+
+This README will be updated under i'ts development.
