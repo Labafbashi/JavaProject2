@@ -1,11 +1,11 @@
 # JavaProject2
 Toll Calculator
 
-This is a college project in Java programming. 
+**This is a college project in Java programming.** 
 The purpose of this task is to teach us to independently create programs in the Object Orientead style.
 
 
-This project contains these knowledge.
+**This project contains these knowledge.**
 
     1. Describe the most common libaries in the Java platform.
     2. Describe how to analays and break down problems into logical smaller parts.
@@ -15,7 +15,7 @@ This project contains these knowledge.
 
 
 
-Task:
+**Task:**
 
 The city has decided to have customs duties on the roads in an attempt to create smaller bottlenecks in traffic.
 People should be given financial incentives to drive other times than during rush hour (8:00 - 9:00) and (16: 00-17: 00).
