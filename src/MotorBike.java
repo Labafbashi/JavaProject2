@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class MotorBike implements Vehicle{
     private final String model;
     private final int yearMade;
@@ -24,5 +26,18 @@ public class MotorBike implements Vehicle{
         carInfo[2] = this.brand;
         carInfo[3] = this.numberPlate;
         return carInfo;
+    }
+
+    @Override
+    public String getVehicleType() {
+        return "MotorBike";
+    }
+
+    public String getFileName() {
+        return this.getInfo()[3]+".db";
+    }
+
+    public String addDataToFile(Date date){
+        return Convertor.dayOfDate(date) + ";" + Convertor.dateHumanReadable(date) + ";" ;
     }
 }

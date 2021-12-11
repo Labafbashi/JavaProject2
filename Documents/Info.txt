@@ -1,0 +1,15 @@
+	TollCalculator tc = new TollCalculator();
+	Car mitsubishi = new Car();
+	LocalDateTime ldt = LocalDateTime.now();
+	/*String today = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.ms", Locale.ENGLISH).format(ldt);
+	Date date= null;
+	try {
+		date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.ms").parse(today);
+	} catch (ParseException e) {
+		e.printStackTrace();
+	}*/
+	Date date = new Date();
+	System.out.println("Car fee ==> " + mitsubishi.getFee());
+	//System.out.println("Date ==> " + today);
+
+	tc.getTollFee(mitsubishi, date);

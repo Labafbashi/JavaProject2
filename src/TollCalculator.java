@@ -4,17 +4,12 @@ public class TollCalculator {
     public int getTollFee(Vehicle vehicle, Date date){
         int totalFee = 0;
 
-        System.out.println(date);
-        System.out.print("Is toll Free Date ==> ");
-        System.out.println(isTollFreeDate(date));
-        return totalFee;
-    }
-
-    public int getTollFee(Vehicle vehicle, Date... dates){
-        Date intervalStart = dates[0];
-        int totalFee = 0;
-        for (Date date : dates){
-
+        if(isTollFreeDate(date)){
+            totalFee = 0;
+        }else if (isRushHours(date)){
+            totalFee += vehicle.getFee() + 7;
+        }else {
+            totalFee += vehicle.getFee();
         }
         return totalFee;
     }
@@ -23,15 +18,24 @@ public class TollCalculator {
         return 0;
     }
 
-    private boolean isTollFreeDate(Date date){
-        String[] dayTollFree = {"Saturday","Sunday"};
-        int[] timeTollFree = {0,1,2,3,4,5,6,20,21,22,23};
+    private boolean isRushHours(Date date){
         int[] rushHours = {8,9,16,17};
+        int gh = Convertor.getHour(date);
+        for (int element : rushHours){
+            if (gh == element){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean isTollFreeDate(Date date){
+        int[] timeTollFree = {0,1,2,3,4,5,6,20,21,22,23};
 
         String dfd = Convertor.dayOfDate(date);
         int gh = Convertor.getHour(date);
 
-        if ((dfd == "Saturday") || (dfd == "Sunday")){
+        if ((dfd.equals("Saturday")) || (dfd.equals("Sunday"))){
             return true;
         }
         for (int element : timeTollFree){
@@ -41,6 +45,5 @@ public class TollCalculator {
         }
         return false;
     }
-
 
 }
