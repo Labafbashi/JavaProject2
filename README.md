@@ -1,12 +1,12 @@
 # JavaProject2
 __Toll Calculator__
 
-**This is a college project in Java programming.** 
+__This is a college project in Java programming.__ 
 
 The purpose of this task is to teach us to independently create programs in the Object Orientead style.
 
 
-**This project contains these knowledge.**
+__This project contains these knowledge.__
 
     1. Describe the most common libaries in the Java platform.
     2. Describe how to analays and break down problems into logical smaller parts.
@@ -16,11 +16,19 @@ The purpose of this task is to teach us to independently create programs in the 
 
 
 
-**Task:**
+__Task:__
 
 The city has decided to have customs duties on the roads in an attempt to create smaller bottlenecks in traffic.
 People should be given financial incentives to drive other times than during rush hour (8:00 - 9:00) and (16: 00-17: 00).
 The city client has given us consultants the task of designing a system to calculate the fee for an individual car that passes a road camera at a certain time of the day.
 
 
-__This README will be updated during i'ts development.__
+__Installation__:
+
+Installation is very easy, you can clone the entire code and run it with you IDE of choice and run the TollCalculatorMain.java with some input or you can download the src files and run it with default data inside the Main class. 
+   
+  Ex: 
+    
+    $ javac TollCalculatorMain.java 
+    $ java TollCalculatorMain 
+
