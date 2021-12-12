@@ -1,4 +1,4 @@
-# TollCalculator plan text. 
+# TollCalculator psudo text. 
 
 
 1. Create car calss implement Vehicle class. 
