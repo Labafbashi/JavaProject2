@@ -25,7 +25,7 @@ The city client has given us consultants the task of designing a system to calcu
 
 __Installation__:
 
-Installation is very easy, you can clone the entire code and run it with you IDE of choice and run the TollCalculatorMain.java with some input or you can download the src files and run it with default data inside the Main class. 
+Installation is very easy, you can clone the entire code and run it with your IDE of choice or you can download the src files and run it with default data inside the Main class. 
    
   Ex: 
     
