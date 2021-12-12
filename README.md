@@ -1,7 +1,9 @@
 # JavaProject2
 __Toll Calculator__
 
-__This is a college project in Java programming.__ 
+Collaborators: MohammadHossein Labafbashi, Hadi Taghilouei
+
+This is a college project in Java programming.
 
 The purpose of this task is to teach us to independently create programs in the Object Orientead style.
 
