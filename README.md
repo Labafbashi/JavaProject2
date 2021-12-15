@@ -37,7 +37,7 @@ Installation is very easy, you can clone the entire code and run it with your ID
 
 __How to:__
 
-In TollCalculatorMain class you shoud use some input like car model, plate number and date and time (see blow code) ..., you can either run the program with some default imput that already is inside Main method or you can use your own car to see if it's toll free time. here comes some basic explanation of how you can use this program. 
+In TollCalculatorMain class you shoud use some input like car model, plate number and date and time (see blow code) ..., you can either run the program with some default imput that already is inside Main method or you can use your own vehicle to see if it's toll free time. here comes some basic explanation of how you can use this program. 
 
                                                     
         Date date=new Date(); // Make date object
