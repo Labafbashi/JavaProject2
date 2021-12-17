@@ -12,7 +12,6 @@ public class TollCalculator {
                 totalFee += vehicle.getFee();
             }
         }
-        if (totalFee > 60) totalFee = 60;
         return totalFee;
 
     }
