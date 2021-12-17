@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class TollCalculatorMain {
     public static void main(String[] args) {
-        Date date=new Date();
         Car car1 = new Car("C-Klass",2012,"Mercedes-Benz","SVG 312");
         MotorBike mb1 = new MotorBike("Seventy-Two", 2020,"HarleyDavidson","DFL 982");
         TollCalculator tc = new TollCalculator();
