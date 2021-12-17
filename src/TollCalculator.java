@@ -1,18 +1,22 @@
 import java.util.*;
 
 public class TollCalculator {
-    public int getTollFee(Vehicle vehicle, Date date){
+    public int getTollFee(Vehicle vehicle, Date... date){
         int totalFee = 0;
-
-        if(isTollFreeDate(date)){
-            totalFee = 0;
-        }else if (isRushHours(date)){
-            totalFee += vehicle.getFee() + 7;
-        }else {
-            totalFee += vehicle.getFee();
+        for (Date date1 : date) {
+            if(isTollFreeDate(date1)){
+                totalFee = 0;
+            }else if (isRushHours(date1)){
+                totalFee += vehicle.getFee() + 7;
+            }else {
+                totalFee += vehicle.getFee();
+            }
         }
+        if (totalFee > 60) totalFee = 60;
         return totalFee;
+
     }
+
 
     private boolean isRushHours(Date date){
         int[] rushHours = {8,9,16,17};
