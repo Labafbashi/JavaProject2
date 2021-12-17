@@ -34,11 +34,4 @@ public class Car implements Vehicle {
         return "Car";
     }
 
-    public String getFileName() {
-        return this.getInfo()[3]+".db";
-    }
-
-    public String addDataToFile(Date date){
-        return Convertor.dayOfDate(date) + ";" + Convertor.dateHumanReadable(date) + ";" ;
-    }
 }

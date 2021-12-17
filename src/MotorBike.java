@@ -33,11 +33,4 @@ public class MotorBike implements Vehicle{
         return "MotorBike";
     }
 
-    public String getFileName() {
-        return this.getInfo()[3]+".db";
-    }
-
-    public String addDataToFile(Date date){
-        return Convertor.dayOfDate(date) + ";" + Convertor.dateHumanReadable(date) + ";" ;
-    }
 }
