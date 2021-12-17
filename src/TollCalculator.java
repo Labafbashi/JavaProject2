@@ -14,10 +14,6 @@ public class TollCalculator {
         return totalFee;
     }
 
-    public int getTollFee(){
-        return 0;
-    }
-
     private boolean isRushHours(Date date){
         int[] rushHours = {8,9,16,17};
         int gh = Convertor.getHour(date);
