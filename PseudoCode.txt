@@ -1,4 +1,4 @@
-# TollCalculator pseudocode.
+﻿# Toll Calculator pseudo code.
 
 1. Create vehicle
   2. GET fee
@@ -17,27 +17,27 @@
     4. GET Motorbike info
     5. GET vehicle types 
 
-2. Create Convertor class
+2. Create Converter class
     1. SET date to String
     2. SET date to array
     3. SET days off calendar
     
 
 4. Create Toll calculator class 
-    1. SET totalFee to 0
+    1. SET total-fee to 0
         1. IF in rush hours GET fee + 7
-        2. ELSE just tollFee is plus or equals to fees
-        3. RETURN totalFee
+        2. ELSE just toll-fee is plus or equals to fees
+        3. RETURN total-fee
     2. CHECK IF vehicle in rush hours. 
         1. SET rush hours 
         2. LOOP through rush hours and if is rush hours RETURN TRUE
             3. OTHERWISE, RETURN FALSE
-        3. LOOP through tollFree date.
+        3. LOOP through toll-free date.
             1.IF is Saturday or Sunday RETURN TRUE
             2. OTHERWISE, RETURN FALSE
 
 
 5. CREATE new car object give name "Mercedes-Benz"
-6. IMPORT TollCalculator class to MAIN class 
+6. IMPORT Toll Calculator class to MAIN class 
 7. PRINT cars toll result
 8. PRINT Bikes toll result
