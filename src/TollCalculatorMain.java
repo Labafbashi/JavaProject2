@@ -17,7 +17,7 @@ public class TollCalculatorMain {
 
         // Making date as a string
         // converting to simple date format
-        String sDate1="2021/12/11 09:10:23";
+        String sDate1="2021/12/10 19:10:23";
         String sDate2="2021/12/11 09:11:10";
         Date date1= null;
         Date date2= null;

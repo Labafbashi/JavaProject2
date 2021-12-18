@@ -1,5 +1,3 @@
-import java.util.Date;
-
 public class MotorBike implements Vehicle{
     private final String model;
     private final int yearMade;
