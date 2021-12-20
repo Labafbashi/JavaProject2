@@ -1,3 +1,9 @@
+// Create the Toll Calculator class wich will take in vehicle and date as a parameter. 
+// create methos for rushing hours during trafic time, rush hours is between 8,9,16 and 17.
+// as will as toll fee free , in that time vehicle could pass the road camera without been charge.
+// Toll free date is 0, 1, 2, 3, ,4 ,5 ,6, 20, 21, 22 and 23, during this times toll is free for any vehicle. 
+// Sturday and Sundays are also toll free, 
+
 import java.util.*;
 
 public class TollCalculator {

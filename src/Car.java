@@ -1,3 +1,7 @@
+// Create Car class and implement vheicle wich is resposible for car and motobike.
+// here creates the Car details such as model, year made, brand name and number plate. 
+// then creates the databas of car object and saves in variable names. 
+
 public class Car implements Vehicle {
     private final String model;
     private final int yearMade;
